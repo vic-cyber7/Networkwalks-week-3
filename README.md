@@ -399,8 +399,75 @@ Encryption allows data to be converted back to its original form when the correc
 
 The protected PDF exercise provided practical experience with password protection, hash extraction, and password-recovery techniques within an authorized security-testing environment.
 
+# 10. Skills Demonstrated 
+
+### Security & Analysis
+- Password Security Testing
+- Hash Extraction & Analysis
+- Protected File Analysis
+- Security Workflow Analysis
+
+### Tools
+- John the Ripper
+- Johnny GUI
+- Networkwalks Security Tools
+
+### Documentation
+- Evidence Collection
+- Technical Documentation
+- Practical Security Reporting
+- Authorized Security Testing
+
+### Technical Skills
+
+- Password security testing
+- Hash extraction and analysis
+- John the Ripper
+- Johnny GUI
+- Networkwalks security tools
+- Protected-file analysis
+- Authorized security testing
+- Evidence collection
+- Technical documentation
+- Security workflow analysis
+
+  # 11. Risk Analysis & Impact 
+```markdown
+# Risk Analysis & Impact
+
+| **#** | **Observation** | **Security Relevance** | **Potential Impact** | **Risk** |
+|---|---|---|---|---|
+| 1 | A weak password was recovered during the authorized exercise | Shows how predictable passwords can be identified | Similar credentials could increase the risk of unauthorized access | **Medium** |
+| 2 | A password hash was available for testing | Hashes can be subjected to offline password analysis | Weak passwords may be recovered if the hash is exposed | **Medium** |
+| 3 | The protected file relied on password-based security | Protection strength depends partly on password complexity | Weak passwords can reduce the effectiveness of file protection | **Medium** |
+| 4 | Password-recovery tools can automate password testing | Highlights the importance of using resilient credentials | Weak passwords may be identified more efficiently | **Medium** |
+| 5 | Accurate hash handling was required | Incorrect or incomplete hash values can disrupt the recovery process | May lead to errors during security testing | **Low** |
+
+> **Assessment Note:**
+>
+> These observations were made during an **authorized educational laboratory exercise** and should not be treated as vulnerabilities affecting unrelated production systems.
+
+---
+
+# Recommendations
+
+### 1. Use Strong Passwords
+
+Use long, unique, and difficult-to-guess passwords to reduce the risk of password-based attacks.
+
+### 2. Avoid Password Reuse
+
+Avoid using the same password across multiple accounts, systems, or services.
+
+### 3. Use a Password Manager
+
+Password managers can help generate, store, and manage strong and unique passwords securely.
+
+### 4. Enable Multi-Factor Authentication
+
+Enable MFA where available to add an additional layer of protection beyond password-based authentication.
+
+### 5. Protect Password Hashes
+
+Password hashes and other credential-related data should be securely stored and protected from unauthorized access.
 ```
-```
-
-
-
