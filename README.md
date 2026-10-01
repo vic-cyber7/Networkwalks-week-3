@@ -432,16 +432,14 @@ The protected PDF exercise provided practical experience with password protectio
 - Security workflow analysis
 
   # 11. Risk Analysis & Impact 
-```markdown
-# Risk Analysis & Impact
 
 | **#** | **Observation** | **Security Relevance** | **Potential Impact** | **Risk** |
 |---|---|---|---|---|
-| 1 | A weak password was recovered during the authorized exercise | Shows how predictable passwords can be identified | Similar credentials could increase the risk of unauthorized access | **Medium** |
-| 2 | A password hash was available for testing | Hashes can be subjected to offline password analysis | Weak passwords may be recovered if the hash is exposed | **Medium** |
-| 3 | The protected file relied on password-based security | Protection strength depends partly on password complexity | Weak passwords can reduce the effectiveness of file protection | **Medium** |
-| 4 | Password-recovery tools can automate password testing | Highlights the importance of using resilient credentials | Weak passwords may be identified more efficiently | **Medium** |
-| 5 | Accurate hash handling was required | Incorrect or incomplete hash values can disrupt the recovery process | May lead to errors during security testing | **Low** |
+| 1 | A weak password was recovered during the authorized exercise | Shows how predictable passwords can be identified | Similar credentials could increase the risk of unauthorized access | **🟠Medium** |
+| 2 | A password hash was available for testing | Hashes can be subjected to offline password analysis | Weak passwords may be recovered if the hash is exposed | **🟠Medium** |
+| 3 | The protected file relied on password-based security | Protection strength depends partly on password complexity | Weak passwords can reduce the effectiveness of file protection | **🟠Medium** |
+| 4 | Password-recovery tools can automate password testing | Highlights the importance of using resilient credentials | Weak passwords may be identified more efficiently | **🟠Medium** |
+| 5 | Accurate hash handling was required | Incorrect or incomplete hash values can disrupt the recovery process | May lead to errors during security testing | **🟢 Low** |
 
 > **Assessment Note:**
 >
@@ -449,7 +447,7 @@ The protected PDF exercise provided practical experience with password protectio
 
 ---
 
-# Recommendations
+# 12. Recommendations
 
 ### 1. Use Strong Passwords
 
@@ -470,4 +468,49 @@ Enable MFA where available to add an additional layer of protection beyond passw
 ### 5. Protect Password Hashes
 
 Password hashes and other credential-related data should be securely stored and protected from unauthorized access.
-```
+
+# 13. Conclusion
+This practical provided hands-on experience with password security, hash extraction, and password-recovery techniques in an authorized laboratory environment.
+
+The exercises covered two different approaches: using **John the Ripper with Johnny** and using the **Networkwalks browser-based security tools**. Both workflows involved extracting a PDF hash, using it as input for password recovery, and verifying the recovered password against the protected PDF.
+
+The practical also strengthened my understanding of hashing, password protection, security risks associated with weak passwords, and the importance of properly documenting technical evidence.
+
+Overall, the exercise improved my practical knowledge of password-security testing and gave me a better understanding of how password-related weaknesses can be assessed during authorized security testing.
+
+# 14.Project Information
+
+| **Project Detail** | **Information** |
+|---|---|
+| **Author** | **Falusi Victor** |
+| **Program** | Cybersecurity Program — Networkwalks |
+| **Week** | **Week 03** |
+| **Batch** | **B083** |
+| **Assessment Date** | **1 October 2026** |
+| **Project Type** | Authorized Cybersecurity Laboratory |
+| **Primary Focus** | Password Security & Recovery |
+| **Lab 01** | John the Ripper & Johnny |
+| **Lab 02** | Networkwalks Hash Calculator & Password Recovery Tool |
+| **Primary Platform** | Windows / Linux |
+| **Target** | Authorized Protected PDF |
+| **Hash Type** | PDF Hash |
+| **Evidence** | Screenshots |
+| **Assessment Status** | Completed |
+
+
+
+# 15.👤Author
+
+### **Falusi Victor**
+
+**Cybersecurity Learner | Networkwalks Intern | Batch B083**
+
+**Cybersecurity & Ethical Hacking**
+
+**Week 03 — Password Security & Recovery Labs**
+
+**Assessment Date: 1 October 2026**
+
+  
+
+
